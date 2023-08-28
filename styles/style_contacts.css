@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-primaria: whitesmoke;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #918c8c;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+    --fonte-terciaria: 'Verdana', sans-serif;
+    
+  
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+  /* INICIO BLOCO HEADER*/
+body {
+ 
+    background-image: url(fundo_contacts.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+ }
+ .cabecalho{
+    padding: 2% 10% 0% 10%;
+    background-color: whitesmoke;
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 248px;
+}
+.cabecalho__menu__link{
+    font-family: var(--fonte-quartenaria);
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(119, 94, 61);
+    text-decoration:linen;
+}
+ /*  FIM BLOCO HEADER*/
+
+
+/* INICIO apresentação da pagina*/
+
+.apresentacao{
+  padding: 2% 12%;
+  display: flex;
+  align-items: baseline;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+
+  
+}.apresentacao__conteudo{
+ flex-direction: row;
+  width: 40%;
+  display: flex;
+  gap: 3px;
+
+}
+
+.apresentacao__conteudo__titulo{
+  font-size: 2.25rem;
+  font-family: 'lucida handwriting', sans-serif;
+  color: var(--cor-primaria);
+}
+
+/* Início formulario*/
+
+form{
+  background-color: var(--cor-primaria);
+  max-width: 500px;
+  height: 450px;
+  padding: 20px;
+  border-radius: 35px;
+}
+
+form p{
+  text-align: center;
+  margin-top: 20px 0;
+  font-size: 1.25rem;
+  font-family: 'lucida handwriting', sans-serif;
+}
+.nome{
+  position: relative;
+  margin: 25px 0;
+}
+.input{
+  width: 450px;
+  border: 0px;
+  border-bottom: 2px solid rgb(119, 94, 61);
+  padding: 5px;
+}
+
+form input[type= submit]{
+background-color: rgb(255, 241, 203);
+padding: 10px 40px;
+border-radius: 15px;
+align-items: center;
+font-family: 'lucida handwriting', sans-serif;
+color:  rgb(119, 94, 61);
+
+text-align: center;
+  margin-top: 20px 0;
+  margin: 0%;
+  font-size: 1.25rem;
+  font-family: 'lucida handwriting', sans-serif;
+
+/* FIM formulario*/
+
+}
+
+
+
+
+
+
+
+
+

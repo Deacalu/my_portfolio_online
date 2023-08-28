@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+:root {
+    --cor-primaria: whitesmoke;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #ffffff;
+  
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+    --fonte-terciaria: 'Verdana', sans-serif;
+    --fonte-quartenaria: 'Tangerine';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    background-image: url(fundo_skills.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ 
+ .cabecalho{
+    padding: 2% 10% 0% 10%;
+    background-color: whitesmoke;
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 248px;
+}
+
+.cabecalho__menu__link{
+    font-family: var(--fonte-quartenaria);
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(119, 94, 61);
+    text-decoration:linen;
+}
+.apresentacao{
+    padding: 0% 0%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: right;
+    gap: 78px;
+    
+}.apresentacao__conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.apresentacao__conteudo__titulo{
+    font: size 0px;;
+    font-size: 1.25rem;
+  font-family: 'lucida handwriting', sans-serif;
+  color: var(--cor-primaria);
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 1.25rem;
+    font-family: var(--fonte-secundaria);
+    text-align: justify;
+    color: var(--cor-primaria);
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+}
+
+
+.rodape{
+    background-color: rgb(17, 17, 17);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
